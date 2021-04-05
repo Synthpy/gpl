@@ -21,5 +21,6 @@ func (db database) ServeHTTP(w http.ResponseWriter, req *http.Request) {
 	for item, price := range db {
 		fmt.Fprintf(w, "%s:%s\n", item, price)
 		fmt.Println("test git")
+		fmt.Println("test git")
 	}
 }
