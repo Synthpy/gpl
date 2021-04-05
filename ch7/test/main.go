@@ -37,9 +37,11 @@ func main() {
 	fmt.Println(bn, "bn")
 	fmt.Println(bnn, "bnn")
 	fmt.Println(bb, "bb")
+	fmt.Println(bb, "bb")
 	fmt.Println("--------------------------------")
 
 	var bbb bytes.Buffer
+	i
 
 	fmt.Println(bbb, "bb")
 	bbb.Write([]byte("abcdefghizzz"))
